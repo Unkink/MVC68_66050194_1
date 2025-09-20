@@ -16,6 +16,7 @@ public class Control {
 
     // ---------------- Show Views ----------------
     public void showLogin() {
+        new View_Login(this);
     }
 
     public void showStudentView() {
